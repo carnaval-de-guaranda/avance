@@ -10,18 +10,19 @@ Crear un repositorio en tal organización, y en el `README.md` de repositorio cr
 
 
 **CARNAVAL DE GUARANDA**
+	
 	Teresita Ilabaca:
 		Ilustraciones
 
 	Florencia Rodríguez:
-	Ilustraciones
+		Ilustraciones
 
 	Francisca Cáceres (*)
 	
 	Vicente Puig 
 	
 	José Fernández:
-	Código
+		Código
 	
 	María Ignacia Raffo:
 		Buscar información y fuentes
