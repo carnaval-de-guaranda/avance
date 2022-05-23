@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+        <title>Bruce Lee</title>
+    </head>
+    <body>
+
+        <header class="container">
+            <div class="row py-5">
+                <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+
+                    <h1 class="mb-3 mt-3 text-center">Recordando a Bruce Lee, la leyenda del kung fu y padrino de las MMA</h1>
+
+                    <h2 class="fs-6 mb-5 text-center text-uppercase"> La infografía presenta a Bruce Lee, junto a su introducción se pueden ver las distintas habilidades que caracterizaban a Lee. Hay ilustraciones de línea simple y otras más elaboradas</h2>
+
+                    <p class="lead">Se describen las habilidades de Bruce Lee con ilustraciones que ayudan a su comprensión. Nos encontramos con imágenes estáticas y también dinámicas; lo que atrapa al lector por el dinamismo y la elegancia de la infografía.</p>
+
+                </div>
+            </div>
+        </header>
+
+        <main class="container-fluid bg-light">
+            <div class="row py-5">
+                <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <h3 class="text-center my-2"><a href="index.html">&larr; Volver</a></h3>
+                    <!--site-shot-->
+                    <img src="img/BruceLee.png" class="w-100 shadow my-4" alt="describir la infografía" />
+                    <!--paleta cromática-->
+                    <h3 class="text-center pt-5 pb-1">Colores</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" class="shadow-sm mt-3 mb-5">
+                        <g id="colores"></g>
+                    </svg>
+                    <!--fuentes tipográficas-->
+                    <h3 class="text-center pt-5 pb-1">Tipografías</h3>
+                    <div class="row mt-2 mb-5 g-3">
+                      <!--primera fuente-->
+                      <div class="col-sm-6">
+                          <div class="card shadow-sm">
+                              <img src="img/Merriweather.png" class="card-img-top" alt="Merriweather" />
+                              <div class="card-body">
+                                  <h4 class="card-title">Merriweather</h4>
+                                  <p class="card-text">Merriweather fue diseñado para ser una cara de texto agradable de leer en las pantallas. Presenta una altura x muy grande, formas de letras ligeramente condensadas, un leve acento diagonal, serifas sólidas y formas abiertas.
+                                                        También está Merriweather Sans, una versión sans-serif que armoniza estrechamente con los pesos y estilos de esta familia serif.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!--segunda fuente-->
+                      <div class="col-sm-6">
+                          <div class="card shadow-sm">
+                              <img src="img/Roboto.jpg" class="card-img-top" alt="Roboto" />
+                              <div class="card-body">
+                                  <h4 class="card-title">Roboto</h4>
+                                  <p class="card-text">Roboto tiene una naturaleza dual. Tiene un esqueleto mecánico y las formas son en gran parte geométricas. Al mismo tiempo, la fuente presenta curvas amigables y abiertas. Mientras que algunos grotescos distorsionan sus formas de letras para forzar un ritmo rígido, Roboto no se compromete, permitiendo que las letras se asienten en su ancho natural. Esto genera un ritmo de lectura más natural que se encuentra más comúnmente en tipos humanistas y serif.</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-white">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <!--reemplaza el # que sigue con la URL de tu cuenta en GitHub-->
+                            <a href="https://github.com/carnaval-de-guaranda" class="link-dark">Carnaval de Guaranda</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/" class="link-dark">Infografía Digital</a>
+                            <a href="https://github.com/profesorfaco/dno075-2022-1/tree/main/clase-12" class="d-none d-lg-inline link-dark">Lunes 30 de mayo, 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Reemplaza los colores dentro del paréntesis cuadrado, respetando las comillas.
+            // Si necesitas que un color ocupe más espacio en la paleta: debes repetirlo.
+            var colores = ["#8C4653", "#402127", "#021740", "#021740", "#A60808", "#A60808", "#F2F2F2", "#F2F2F2", "#F2F2F2"];
+            // No reemplaces nada de lo que sigue#A60808
+            var n = colores.length;
+            var w = 100 / n;
+            for (var x = 0; x < n; x++) {
+                document.getElementById("colores").innerHTML += '<rect width="' + w + '" height="20" x="' + x * w + '" y="0" fill="' + colores[x] + '" stroke="' + colores[x] + '"/>';
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
