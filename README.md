@@ -11,7 +11,8 @@
 
 	Francisca Cáceres (*)
 	
-	Vicente Puig (*)
+	Vicente Puig:
+		Ordenar la información y relato
 	
 	José Fernández:
 		Código y programación
