@@ -9,8 +9,6 @@
 	Florencia Rodríguez:
 		Ilustración y animación
 
-	Francisca Cáceres (*)
-	
 	Vicente Puig:
 		Ordenar la información y relato
 	
